@@ -1,13 +1,13 @@
-Fitness Planner (Offline-First)
+Fitness Planner (Offline)
 
 A mobile-first fitness and nutrition planning web app built with React + Vite + TailwindCSS.
 Designed for home workouts (dumbbells + bodyweight) and Moroccan-friendly meals, with a goal-based intake calculator and plan generator.
 
 The app works offline after first load, stores all data locally, and does not require accounts or cloud services.
 
-==================================================
+======================
 FEATURES
-==================================================
+======================
 
 INTAKE & CALCULATIONS
 - User input:
@@ -60,9 +60,9 @@ OFFLINE-FIRST
 - All data stored locally in the browser
 - JSON Export / Import for backup and restore
 
-==================================================
+======================
 TECH STACK
-==================================================
+======================
 - React 18
 - Vite 5
 - TailwindCSS 3
@@ -70,9 +70,9 @@ TECH STACK
 - localStorage persistence
 - No backend, no accounts
 
-==================================================
+======================
 GETTING STARTED
-==================================================
+======================
 
 REQUIREMENTS
 - Node.js 18+
@@ -89,9 +89,9 @@ npm run preview
 
 After opening the preview once, the app will work offline for the built version.
 
-==================================================
+======================
 PROJECT STRUCTURE
-==================================================
+======================
 
 src/
   lib/
@@ -114,29 +114,29 @@ src/
 public/
   sw.js               -> service worker (offline cache)
 
-==================================================
+======================
 CUSTOMIZATION
-==================================================
+======================
 - Edit calculations: src/lib/calculations.js
 - Add meals or adjust portions: src/lib/meals.js
 - Modify workout structure: src/lib/plan.js
 - Storage & backups: src/lib/storage.js
 
-==================================================
+======================
 PRIVACY & DATA
-==================================================
+======================
 - No accounts
 - No external APIs
 - No analytics
 - All data stays on the user’s device
 
-==================================================
+======================
 DISCLAIMER
-==================================================
+======================
 This project provides general fitness and nutrition guidance for educational purposes only.
 It is not medical advice.
 
-==================================================
+======================
 LICENSE
-==================================================
+======================
 MIT License
