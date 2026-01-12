@@ -7,7 +7,7 @@ The app works offline after first load, stores all data locally, and does not re
 
 ======================
 FEATURES
-======================
+
 
 INTAKE & CALCULATIONS
 - User input:
@@ -62,7 +62,7 @@ OFFLINE-FIRST
 
 ======================
 TECH STACK
-======================
+
 - React 18
 - Vite 5
 - TailwindCSS 3
@@ -72,7 +72,7 @@ TECH STACK
 
 ======================
 GETTING STARTED
-======================
+
 
 REQUIREMENTS
 - Node.js 18+
@@ -91,7 +91,7 @@ After opening the preview once, the app will work offline for the built version.
 
 ======================
 PROJECT STRUCTURE
-======================
+
 
 src/
   lib/
@@ -116,7 +116,7 @@ public/
 
 ======================
 CUSTOMIZATION
-======================
+
 - Edit calculations: src/lib/calculations.js
 - Add meals or adjust portions: src/lib/meals.js
 - Modify workout structure: src/lib/plan.js
@@ -124,7 +124,7 @@ CUSTOMIZATION
 
 ======================
 PRIVACY & DATA
-======================
+
 - No accounts
 - No external APIs
 - No analytics
@@ -132,11 +132,11 @@ PRIVACY & DATA
 
 ======================
 DISCLAIMER
-======================
+
 This project provides general fitness and nutrition guidance for educational purposes only.
 It is not medical advice.
 
 ======================
 LICENSE
-======================
+
 MIT License
