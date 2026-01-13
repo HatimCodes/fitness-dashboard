@@ -7,7 +7,7 @@ The app works offline after first load, stores all data locally, and does not re
 
 ==========
 FEATURES
-==========
+========== 
 
 INTAKE & CALCULATIONS
 - User input:
